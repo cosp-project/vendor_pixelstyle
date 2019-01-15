@@ -14,7 +14,6 @@
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    AmbientPlayProvider \
     SoundPickerPrebuilt \
     WallpaperPickerGooglePrebuilt \
     NexusLauncherPrebuilt \
@@ -85,6 +84,5 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Weather
 PRODUCT_COPY_FILES += \
-    vendor/pixelstyle/etc/permissions/org.pixelexperience.ambient.play.xml:system/etc/permissions/org.pixelexperience.ambient.play.xml \
     vendor/pixelstyle/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
     vendor/pixelstyle/etc/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml
