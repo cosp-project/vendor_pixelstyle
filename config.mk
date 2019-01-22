@@ -16,7 +16,6 @@
 PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     WallpaperPickerGooglePrebuilt \
-    WellbeingPrebuilt \
     MarkupGoogle 
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
