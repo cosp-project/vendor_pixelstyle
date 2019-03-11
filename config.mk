@@ -16,19 +16,10 @@
 PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     WallpaperPickerGooglePrebuilt \
-    MarkupGoogle 
-
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-PRODUCT_PACKAGES += \
+    MarkupGoogle \
     MatchmakerPrebuilt
-endif
 
 TARGET_MINIMAL_APPS ?= false
-
-ifeq ($(TARGET_MINIMAL_APPS), false)
-PRODUCT_PACKAGES += \
-    NexusWallpapersStubPrebuilt2018
-endif
 
 # build.prop entrys
 PRODUCT_PROPERTY_OVERRIDES += \

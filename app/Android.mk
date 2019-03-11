@@ -15,16 +15,6 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := NexusWallpapersStubPrebuilt2018
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := NexusWallpapersStubPrebuilt2018/NexusWallpapersStubPrebuilt2018.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_DEX_PREOPT := false
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := SoundPickerPrebuilt
 LOCAL_MODULE_TAGS := optional
 ifeq ($(TARGET_USE_OLD_SOUND_PICKER),true)
